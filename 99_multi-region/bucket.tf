@@ -10,3 +10,9 @@ resource aws_s3_bucket "us_west_2" {
   provider = aws.us_west_2
 }
 
+output "bucket_names" {
+  value = [
+    aws_s3_bucket.us_east_1.bucket,
+    aws_s3_bucket.us_west_2.bucket,
+  ]
+}
