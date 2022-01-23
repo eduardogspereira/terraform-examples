@@ -1,3 +1,7 @@
+terraform {
+  required_version = ">= 0.12.0"
+}
+
 resource random_uuid bucket_prefix {}
 
 resource aws_s3_bucket "us_east_1" {
