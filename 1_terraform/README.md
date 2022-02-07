@@ -13,3 +13,4 @@ Examples of pure terraform code and usages
 | Taint Usage        | Demo of a taint usage                 | [4_taint_usage](./4_taint_usage)               |
 | Local Provisioner  | Demo of a the local-exec provisioner  | [5_local_provisioner](./5_local_provisioner)   |
 | Remote Provisioner | Demo of a the remote-exec provisioner | [6_remote_provisioner](./6_remote_provisioner) |
+| Local Module       | Demo of a local module usage          | [7_local_module](./7_local_module)             |
