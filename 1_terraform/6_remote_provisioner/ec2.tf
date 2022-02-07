@@ -5,6 +5,8 @@ resource aws_instance "test" {
   key_name        = aws_key_pair.deployer.key_name
 
   provisioner "remote-exec" {
+    on_failure = continue
+
     connection {
       type        = "ssh"
       user        = "ec2-user"
