@@ -1,4 +1,4 @@
 resource "tfe_organization" "applications" {
-  name  = "applications-egsp-org"
+  name  = var.organisation_name
   email = "edu_vcd@hotmail.com"
 }
