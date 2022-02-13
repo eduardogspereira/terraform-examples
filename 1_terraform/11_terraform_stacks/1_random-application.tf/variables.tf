@@ -1,0 +1,3 @@
+locals {
+  stack = terraform.workspace
+}
