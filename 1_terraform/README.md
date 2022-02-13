@@ -17,3 +17,4 @@ Examples of pure terraform code and usages
 | Terraform Cloud Module | Demo of a terraform cloud module usage | [8_terraform_cloud_module](./8_terraform_cloud_module) |
 | Remote state           | Demo using the S3 remote state         | [9_remote_state](./9_remote_state)                     |
 | Terraform import       | Demo using terraform import            | [10_terraform_import](./10_terraform_import)           |
+| Terraform stack        | Demo building multiple stacks          | [11_terraform_stacks](./11_terraform_stacks)           |
