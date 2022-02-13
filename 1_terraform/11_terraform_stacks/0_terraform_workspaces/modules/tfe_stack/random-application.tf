@@ -8,14 +8,8 @@ resource "tfe_workspace" "random_application" {
 
   vcs_repo {
     identifier     = "eduardogspereira/terraform-examples"
-    oauth_token_id = tfe_oauth_client.oauth-eduardogspereira.id
+    oauth_token_id = var.oauth_token_id
   }
 }
 
-resource "tfe_oauth_client" "oauth-eduardogspereira" {
-  organization     = var.organisation_name
-  api_url          = "https://api.github.com"
-  http_url         = "https://github.com"
-  oauth_token      = var.github_oauth_token
-  service_provider = "github"
-}
+

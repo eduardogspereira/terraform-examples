@@ -2,11 +2,7 @@ variable organisation_id {
   type = string
 }
 
-variable organisation_name {
-  type = string
-}
-
-variable github_oauth_token {
+variable oauth_token_id {
   type = string
 }
 
