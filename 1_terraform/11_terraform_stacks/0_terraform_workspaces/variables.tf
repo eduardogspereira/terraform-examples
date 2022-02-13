@@ -3,12 +3,19 @@ variable organisation_name {
   type    = string
 }
 
-variable environment_secrets {
-  default = {}
-  type    = object({})
+variable aws_access_key_id {
+  default = ""
+  type    = string
+}
+
+variable aws_secret_access_key {
+  default = ""
+  type    = string
+  sensitive = true
 }
 
 variable github_oauth_token {
-  default = ""
-  type    = string
+  default   = ""
+  type      = string
+  sensitive = true
 }

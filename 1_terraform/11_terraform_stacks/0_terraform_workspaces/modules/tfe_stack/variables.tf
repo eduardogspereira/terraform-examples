@@ -6,6 +6,17 @@ variable oauth_token_id {
   type = string
 }
 
+variable aws_access_key_id {
+  default = ""
+  type    = string
+}
+
+variable aws_secret_access_key {
+  default = ""
+  type    = string
+  sensitive = true
+}
+
 variable stack_name {
   type = string
 
@@ -15,6 +26,3 @@ variable stack_name {
   }
 }
 
-variable environment_secrets {
-  type = object({})
-}
