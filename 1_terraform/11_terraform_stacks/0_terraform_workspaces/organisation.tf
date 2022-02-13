@@ -1,4 +1,4 @@
 resource "tfe_organization" "applications" {
-  name  = "applications-e-egsp-org"
+  name  = "applications-egsp-org"
   email = "edu_vcd@hotmail.com"
 }
