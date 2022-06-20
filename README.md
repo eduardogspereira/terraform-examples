@@ -1,6 +1,6 @@
 # TF Examples
 
-Contains snippets and examples of terraform code that I'm studying.
+Contain snippets and examples of terraform code that I'm studying.
 
 ## Folders
 
